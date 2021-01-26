@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".geometryFormulas">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="20sp"
+                android:background="#DAE46F"
+                android:lineSpacingExtra="8sp"
+                android:padding="20sp"
+                android:text="\n
+        Pythagora's theorem: \n
+        The two sides a and b of a right triangle and the hypotenuse c are related by. a 2 + b 2 = c 2
+        Perimeter = a + b + c.\n
+        There are several formulas for the area.\n
+        Perimeter = 2L + 2W\n
+        Area = L * W.
+        \n\n
+        Area = b * h\n
+        Area = (1 / 2)(a + b) * h\n
+        Circumference = 2*Pi*r\n
+        Area = Pi*r 2 \n
+        Arclength: \ns = r*t\n
+        Volume = L*W*H.\n"
+                android:textColor="#0B0A0A"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
