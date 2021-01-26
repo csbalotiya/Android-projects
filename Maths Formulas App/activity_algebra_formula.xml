@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#91D6C3">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="20sp"
+                android:lineSpacingExtra="8sp"
+                android:padding="20sp"
+                android:text="\n Some Algebra Formulas are : \n\n
+a2 – b2 = (a – b)(a + b)\n
+(a + b)2 = a2 + 2ab + b2\n
+a2 + b2 = (a + b)2 – 2ab\n
+(a – b)2 = a2 – 2ab + b2\n
+(a + b + c)2 = a2 + b2 + c2 + 2ab + 2bc + 2ca\n
+(a – b – c)2 = a2 + b2 + c2 – 2ab + 2bc – 2ca\n
+(a + b)3 = a3 + 3a2b + 3ab2 + b3 ; (a + b)3 = a3 + b3 + 3ab(a + b)\n
+(a – b)3 = a3 – 3a2b + 3ab2 – b3 = a3 – b3 – 3ab(a – b)\n
+a3 – b3 = (a – b)(a2 + ab + b2)\n
+a3 + b3 = (a + b)(a2 – ab + b2)\n
+(a + b)4 = a4 + 4a3b + 6a2b2 + 4ab3 + b4\n
+(a – b)4 = a4 – 4a3b + 6a2b2 – 4ab3 + b4\n
+a4 – b4 = (a – b)(a + b)(a2 + b2)\n\n
+a5 – b5 = (a – b)(a4 + a3b + a2b2 + ab3 + b4)\n
+If n is a natural number\n an – bn = (a – b)(an-1 + an-2b+…+ bn-2a + bn-1)\n
+If n is even \n(n = 2k), an + bn = (a + b)(an-1 – an-2b +…+ bn-2a – bn-1)\n
+If n is odd \n(n = 2k + 1), an + bn = (a + b)(an-1 – an-2b +an-3b2…- bn-2a + bn-1)\n
+(a + b + c + …)2 = a2 + b2 + c2 + … + 2(ab + ac + bc + ….)\n\n
+Laws of Exponents \n(am)(an) = am+n ;\n (ab)m = ambm \n (am)n = amn\n\n
+Fractional Exponents \na0 = 1 \n aman=am−n \n am = 1a−m \n a−m = 1am"
+                android:textColor="#000000"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="183dp"
+                tools:layout_editor_absoluteY="332dp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
